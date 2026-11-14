@@ -1,0 +1,16 @@
+{
+  "name": "rescate-de-codigo",
+  "version": "1.0.0",
+  "description": "Proyecto 3: refactor, pruebas y documentación (Módulo 4)",
+  "type": "module",
+  "scripts": {
+    "reproducir": "node reproducir.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^5.0.5",
+    "vitest": "^5.0.5"
+  }
+}
